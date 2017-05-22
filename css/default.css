@@ -6,25 +6,66 @@ padding:0;
 }
 
 body{
-backfround-color: gray;
+background-color: gray;
+  margin: 48px 0 0 0;
 }
 
 header{
-backfround-color: orange;
+background-color: orange;
+  position: fixed;
+  left: 0;
+  top 0;
+  width: 100%;
+  z-index: +1;
+}
+
+#main{
+  background-color: white;
+  width: 500px;
+  width: calc(100%-200px);
+  min-width: 500px;
+  float: left;
 }
 
 #main1{
-backfround-color: green;
+background-color: green;
+  
 }
 
 #main2{
-backfround-color: yellow;
+background-color: yellow;
+  width: 500px;
+  float: left;
 }
 
 aside{
-backfround-color: blue;
+background-color: blue;
+  width: 500px;
+  float: right;
+  position: relative;
+  top: 20px;
+  right: 10px
 }
 
 footer{
-backfround-color: puple;
+background-color: puple;
+  clear: both;
+}
+
+.box{
+background-color: red;
+  color: black;
+  width: 240px;
+  height: 80px;
+  margin: 5px;
+  float: left;
+  overflow: hidden;
+}
+
+#good_picture{
+color: black;
+  width: 24px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
 }
