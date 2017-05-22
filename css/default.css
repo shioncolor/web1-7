@@ -59,7 +59,7 @@ background-color: puple;
   height: 80px;
   margin: 5px;
   float: left;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 #good_picture{
