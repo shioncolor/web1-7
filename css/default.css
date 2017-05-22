@@ -1,0 +1,30 @@
+@charset "utf-8"
+
+*{
+margin:0;
+padding:0;
+}
+
+body{
+backfround-color: gray;
+}
+
+header{
+backfround-color: orange;
+}
+
+#main1{
+backfround-color: green;
+}
+
+#main2{
+backfround-color: yellow;
+}
+
+aside{
+backfround-color: blue;
+}
+
+footer{
+backfround-color: puple;
+}
